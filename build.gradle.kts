@@ -11,6 +11,10 @@ repositories {
 
 dependencies {
     testImplementation("org.jetbrains.kotlin:kotlin-test")
+
+    //Newly Added
+    testImplementation("org.junit.jupiter:junit-jupiter-api:5.3.2")
+    testImplementation("org.assertj:assertj-core:3.11.1")
 }
 
 tasks.test {
